@@ -1,0 +1,16 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    {{ title }}!
+  </h1>
+  <nav>
+      <a [routerLink]="['/dashboard']" routerLinkActive="router-link-active" >DashBoard</a>
+    <a [routerLink]="['/movies']" routerLinkActive="router-link-active" >Movie</a>
+  </nav>
+  <router-outlet></router-outlet>
+  <!-- <app-movies></app-movies>
+
+  <app-messages></app-messages> -->
+</div>
+
+
